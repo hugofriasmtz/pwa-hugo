@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Hugo Frías</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Curriculum Vitae</h1>
+            <h2>Hugo Frías</h2>
+            <p>Estudiante</p>
+            <img src="img/toallin.png" alt="Toallin" class="profile-img">
+        </header>
+
+        <section class="profile">
+            <h3>Perfil</h3>
+            <p>Apasionado desarrollador de software con experiencia en tecnologías web, gestión de eventos. Busco oportunidades para seguir creciendo profesionalmente y aplicar mis conocimientos en proyectos innovadores.</p>
+        </section>
+
+
+
+        <section class="education">
+            <h3>Educación</h3>
+            <p>Universidad Tecnológica de Tehuacán - Ingeniería en Desarrollo de Software - 2024</p>
+        </section>
+
+        <section class="skills">
+            <h3>Habilidades</h3>
+            <ul>
+                <li>PHP, Python,</li>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>MySQL, MariaDB, MongoDB</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Contacto: a3521110393@alumno.uttehuacan.edu.mx</p>
+            <button class="redirect-btn" id="redirectButton">Ver más proyectos</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(registration => {
+                    console.log('Service Worker registrado con éxito:', registration);
+                })
+                .catch(error => {
+                    console.log('Error al registrar el Service Worker:', error);
+                });
+        }
+    </script>
+</body>
+</html>
