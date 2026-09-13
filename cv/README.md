@@ -13,6 +13,7 @@ Este proyecto es un currículum vitae (CV) creado como una Aplicación Web Progr
 - Manifest.json
 
 ## Autor
+
 Hugo Frías Martínez | Desarrollador Junior 🤓
 
-* [GitHub](https://github.com/hugofriasmtz)
+- [GitHub](https://github.com/hugofriasmtz)
